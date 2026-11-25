@@ -4,7 +4,7 @@ description: Reescreve textos em português do Brasil que soam como gerados por 
 license: MIT
 metadata:
   author: Markus Costa
-  version: 1.2.0
+  version: 1.3.0
   homepage: https://markuscosta.com/skills/humanizer-pt-br
 ---
 
@@ -29,7 +29,8 @@ O objetivo é qualidade editorial e voz própria. Não é enganar detectores de 
 - **Erro óbvio de digitação** ("compromisso inadiado" por "inadiável"): corrija e avise. **Erro de fato** (data, número, nome que parece errado): não corrija; aponte.
 - **Título:** corrigir a capitalização (D1) é ortografia e pode. Trocar palavras do título, não: sugira em "Para você conferir".
 - **Lista que fica com rótulo:** quando o rótulo em negrito é o nome do item (o achado, a etapa, o plano), ele pode ficar. O vício é rótulo genérico ("**Agilidade:**") na frente de frase vaga.
-- **Certeza e intensidade:** cortar intensificador vazio (C5: "extremamente", "significativamente") pode. Mudar o que o texto afirma, não: hipótese ("imagine ter") não vira afirmação, "é apaixonado por" não vira "gosta de".
+- **Certeza e intensidade:** a força de afirmações de fato fica igual: promessa, resultado, número, prazo, hipótese ("imagine ter" não vira "você tem", "pode reduzir" não vira "reduz"). Já o clichê avaliativo não é fato e deve ser reescrito em linguagem simples, mantendo a ideia: "é apaixonado por traduzir temas complexos em linguagem simples" vira "gosta de explicar tecnologia em palavras simples"; "resultados reais" e "aprendizados valiosos" viram o resultado concreto, se o texto tiver, ou saem. Cortar intensificador vazio (C5) também pode.
+- **Título que é nome de produto** ("Garrafa Térmica de Inox 1 L"): é título; aplique a capitalização do D1 só se o nome não for marca registrada. Na dúvida, mantenha e aponte.
 - **Roteiro:** a fala segue o registro falado ("pra", "tá"); texto que aparece na tela segue a escrita.
 
 ## 1. Calibrar a voz
@@ -171,6 +172,8 @@ Por padrão:
 
 1. O texto reescrito, pronto para colar, sem comentário antes.
 2. Depois de uma linha `---`, um bloco curto "O que mudou" com 3 a 6 itens (os padrões mais importantes que foram tratados) e, se houver, "Para você conferir": trechos marcados com `[detalhe: ...]`, fatos ambíguos e escolhas que dependem do autor.
+
+O bloco "Para você conferir" tem no máximo 3 itens e só traz o que o autor precisa decidir ou confirmar: fato ambíguo, `[detalhe: ...]` deixado no texto, troca que dependeu de gosto (saudação, título). Conselho de conteúdo ("vale acrescentar um caso") só entra se for o único item.
 
 Use `[detalhe: ...]` no corpo do texto só quando a frase não se sustenta sem o dado (por exemplo, "as três novidades do mês" sem dizer quais). Nos demais casos, deixe o texto completo e liste a dúvida em "Para você conferir".
 
