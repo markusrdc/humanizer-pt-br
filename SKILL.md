@@ -4,7 +4,7 @@ description: Reescreve textos em português do Brasil que soam como gerados por 
 license: MIT
 metadata:
   author: Markus Costa
-  version: 1.0.0
+  version: 1.1.0
   homepage: https://markuscosta.com/skills/humanizer-pt-br
 ---
 
@@ -19,8 +19,9 @@ O objetivo é qualidade editorial e voz própria. Não é enganar detectores de 
 1. **Mesmo sentido.** Toda afirmação, número, nome, data, preço, prazo, condição e ressalva do original continua no texto reescrito. Pode cortar repetição e enchimento; não pode cortar informação.
 2. **Nada inventado.** Não acrescente fato, número, exemplo pessoal, cliente, história ou citação que não estejam no original ou não tenham sido dados pelo usuário. Onde o texto pede um detalhe concreto que você não tem, deixe a frase simples e honesta, ou marque `[detalhe: ...]` para o usuário preencher.
 3. **O que é do autor fica.** Termos técnicos corretos, jargão do setor que o público usa, nomes de produto, piadas internas e escolhas deliberadas do autor não são vício de IA. Na dúvida, mantenha e aponte.
-4. **Formato do original.** Um e-mail continua e-mail, um roteiro continua roteiro, Markdown continua Markdown. Só mude a estrutura (listas, títulos, negrito) quando ela for o próprio vício.
-5. **Português do Brasil.** Ortografia do Acordo de 1990, concordância e regência corretas. Não "corrija" o registro informal pedido pelo usuário.
+4. **Formato e peças do gênero ficam.** Um e-mail continua e-mail, um roteiro continua roteiro, Markdown continua Markdown. Mantenha as peças que fazem o texto funcionar no gênero: título do texto, nome do produto ou do curso, seções fixas (Objetivo, Conclusão), assinatura, chamada para ação, saudação no mesmo grau de formalidade ("Prezado" continua "Prezado"; sugira a troca em "Para você conferir", não troque). Só mude a estrutura (listas, títulos, negrito) quando ela for o próprio vício.
+5. **Mesma certeza.** Não transforme "pode parar" em "para", "ajuda a" em "resolve", "costuma" em "sempre", nem o contrário. A força de cada afirmação é parte do sentido.
+6. **Português do Brasil.** Ortografia do Acordo de 1990, concordância e regência corretas. Não "corrija" o registro informal pedido pelo usuário.
 
 ## 1. Calibrar a voz
 
@@ -31,6 +32,8 @@ Antes de reescrever, defina a voz de destino:
 3. **Nada disso:** use a voz padrão em [referencias/voz-markus.md](referencias/voz-markus.md) (direta, concreta, falada, sem enfeite), adaptando o registro ao tipo de texto.
 
 Em qualquer caso, ajuste o registro ao gênero: e-mail de cliente e página de venda em "nós" e "você", sem gíria; post pessoal aceita "pra" e "a gente"; relatório pede frases completas e números.
+
+**A voz não passa por cima do gênero nem do autor.** O perfil (amostra ou padrão) define ritmo, vocabulário e tom. As convenções do gênero continuam valendo: página de venda pode ter lista de benefícios e negrito no preço, roteiro pode ter gancho em pergunta, post pode terminar com uma pergunta ao leitor. Texto assinado por outra pessoa (o e-mail do consultor, a bio do palestrante, a resposta da equipe de suporte) fica na pessoa e no papel de quem assina; da voz padrão vem só a clareza, não o jeito de falar do Markus.
 
 Não imite erros da amostra (acentos faltando, digitação apressada). Imite as escolhas.
 
@@ -76,7 +79,7 @@ Os padrões vêm agrupados do sinal mais forte para o mais fraco. Os do grupo A 
 
 **B2. Ritmo de metrônomo.** Frases todas do mesmo tamanho, ou parágrafos que seguem o mesmo molde (afirmação, explicação, benefício). Varie: uma frase curta depois de uma longa, um parágrafo de uma linha.
 
-**B3. Lista onde cabia uma frase.** Tópicos com negrito e dois-pontos ("**Agilidade:** ...") para três ideias que caberiam em duas frases. Mantenha lista quando o leitor vai consultar ou seguir passos.
+**B3. Lista onde cabia uma frase.** Tópicos com negrito e dois-pontos ("**Agilidade:** ...") para três ideias que caberiam em duas frases. Mantenha lista quando o leitor vai consultar ou seguir passos, ou quando são quatro itens ou mais: transformar uma lista longa numa frase só cria uma enumeração mecânica ("custo menor, atendimento mais rápido, menos erro e mais tempo"), que é outro vício. Nesse caso, ou mantenha a lista sem emoji, ou escreva uma frase por benefício que importa.
 - Antes: "**Benefícios:** - **Agilidade:** processos mais rápidos. - **Economia:** menos custos."
 - Depois: "Os processos andam mais rápido e custam menos."
 
@@ -96,7 +99,7 @@ Os padrões vêm agrupados do sinal mais forte para o mais fraco. Os do grupo A 
 
 ### C. Vocabulário e frases feitas
 
-**C1. Palavras-assinatura.** Verbos e adjetivos que aparecem demais em texto de IA em português: "crucial", "fundamental", "essencial", "mergulhar" (de *delve*), "jornada", "potencializar", "alavancar", "impulsionar", "robusto", "abrangente", "inovador", "transformador", "fascinante", "vibrante", "meticuloso", "otimizar", "explorar" (no sentido de "tratar de"), "desvendar", "navegar" (no sentido de "lidar com"), "tapeçaria", "no coração de", "ecossistema" (fora de TI ou biologia), "sinergia". Troque pela palavra simples ou, melhor, pelo fato.
+**C1. Palavras-assinatura.** Verbos e adjetivos que aparecem demais em texto de IA em português: "crucial", "fundamental", "essencial", "mergulhar" (de *delve*), "jornada", "potencializar", "alavancar", "impulsionar", "robusto", "abrangente", "inovador", "transformador", "fascinante", "vibrante", "meticuloso", "otimizar", "explorar" (no sentido de "tratar de"), "desvendar", "navegar" (no sentido de "lidar com"), "tapeçaria", "no coração de", "ecossistema" (fora de TI ou biologia), "sinergia". Inclui as frases feitas de ênfase: "faz (toda) a diferença", "deixou de ser opcional", "não é mais luxo, é necessidade", "o melhor de tudo é que", "ganhar tempo para o que realmente importa", "sair do zero". Troque pela palavra simples ou, melhor, pelo fato.
 - Antes: "Vamos mergulhar nessa jornada para potencializar seus resultados."
 - Depois: "Nesta aula você vai montar o primeiro fluxo."
 
@@ -142,14 +145,14 @@ Os padrões vêm agrupados do sinal mais forte para o mais fraco. Os do grupo A 
 
 ### O que não é sinal de IA em português
 
-Não trate como vício: omitir o sujeito (é normal em português), aspas curvas (o Word e o Google Docs geram sozinhos), "fazer sentido" (uso dicionarizado), travessão de diálogo, gerúndio usado direito ("estou escrevendo"), voz passiva quando o agente não importa ("o contrato foi assinado ontem"), e vocabulário técnico que o público usa. O gerundismo de telemarketing ("vou estar enviando") é erro de estilo, mas é mais humano que de IA; corrija sem contar como sinal.
+Não trate como vício: omitir o sujeito (é normal em português), aspas curvas (o Word e o Google Docs geram sozinhos), "fazer sentido" (uso dicionarizado), travessão de diálogo, gerúndio usado direito ("estou escrevendo"), voz passiva quando o agente não importa ("o contrato foi assinado ontem"), vocabulário técnico que o público usa, e as convenções do gênero usadas uma vez e no lugar certo (gancho em pergunta no começo de um Reels, pergunta ao leitor no fim de um post, chamada para compra no fim de uma página de venda). O gerundismo de telemarketing ("vou estar enviando") é erro de estilo, mas é mais humano que de IA; corrija sem contar como sinal.
 
 ## 3. Processo
 
-1. **Ler e mapear.** Leia o texto inteiro. Identifique gênero, público, objetivo e os fatos (lista mental do que precisa sobreviver: números, nomes, datas, condições, pedidos).
+1. **Ler e mapear.** Leia o texto inteiro. Identifique gênero, público, objetivo, quem assina e os fatos (lista do que precisa sobreviver: título, nomes, números, datas, condições, pedidos, chamada para ação).
 2. **Calibrar a voz** (seção 1).
 3. **Marcar os padrões** da seção 2, do grupo A para o D. Conte quantos de cada grupo aparecem.
-4. **Reescrever.** Comece pelo ponto principal. Troque o abstrato pelo concreto que já está no texto. Corte o que não informa. Varie o ritmo. Se um trecho inteiro é enchimento, apague o trecho, não o reescreva.
+4. **Reescrever.** Comece pelo ponto principal (dentro da estrutura do gênero: se o texto tem título e seções fixas, o ponto principal abre a primeira seção, sem apagar o título). Troque o abstrato pelo concreto que já está no texto. Corte o que não informa. Varie o ritmo. Se um trecho inteiro é enchimento, apague o trecho, não o reescreva.
 5. **Auditar** (seção 4). Corrija o que falhar e audite de novo.
 6. **Entregar** no formato pedido (abaixo).
 
@@ -160,7 +163,9 @@ Por padrão:
 1. O texto reescrito, pronto para colar, sem comentário antes.
 2. Depois de uma linha `---`, um bloco curto "O que mudou" com 3 a 6 itens (os padrões mais importantes que foram tratados) e, se houver, "Para você conferir": trechos marcados com `[detalhe: ...]`, fatos ambíguos e escolhas que dependem do autor.
 
-Se o usuário pedir "só o texto", entregue só o texto. Se o texto vier de um arquivo, edite o arquivo e resuma as mudanças.
+Use `[detalhe: ...]` no corpo do texto só quando a frase não se sustenta sem o dado (por exemplo, "as três novidades do mês" sem dizer quais). Nos demais casos, deixe o texto completo e liste a dúvida em "Para você conferir".
+
+Se o usuário pedir "só o texto", entregue só o texto. Se o texto vier de um arquivo, sobrescreva o arquivo só com o texto reescrito (o bloco "O que mudou" fica na conversa, nunca no arquivo), a menos que o usuário peça uma cópia.
 
 ## 4. Passada final de auditoria
 
@@ -170,9 +175,10 @@ Antes de entregar, confira o texto reescrito contra o original:
 2. **Fatos, volta:** o reescrito afirma alguma coisa que não está no original? Se sim, corte ou marque `[detalhe: ...]`.
 3. **Sentido:** o pedido, a promessa e o tom de compromisso são os mesmos? (Não transformar "pode reduzir" em "reduz", nem o contrário.)
 4. **Sobras do grupo A:** releia procurando A1 a A7. Eles costumam sobreviver na primeira e na última frase.
-5. **Novas muletas:** a reescrita criou fórmula própria (todas as frases curtas, tudo começando com verbo, "E" no começo de toda frase)?
-6. **Voz:** soa como a amostra ou o perfil escolhido? Leia em voz alta. Se ninguém falaria assim numa conversa com o público desse texto, reescreva o trecho.
-7. **Português:** ortografia, concordância, regência e crase.
+5. **Novas muletas:** a reescrita criou fórmula própria (todas as frases curtas, tudo começando com verbo, "E" no começo de toda frase, enumeração longa numa frase só)? Repetiu a mesma palavra em frases vizinhas ("faz diferença. A diferença...")? Sobrou frase feita do C1?
+6. **Peças do gênero:** título, nome do produto, seções fixas, chamada para ação, saudação e assinatura continuam lá?
+7. **Voz:** soa como a amostra ou o perfil escolhido? Leia em voz alta. Toda frase está completa (sem palavra faltando, como "para o seu voltar" no lugar de "para o seu aparelho voltar")? Se ninguém falaria assim numa conversa com o público desse texto, reescreva o trecho.
+8. **Português:** ortografia, concordância, regência e crase.
 
 ## 5. Modo detectar (sem reescrever)
 
