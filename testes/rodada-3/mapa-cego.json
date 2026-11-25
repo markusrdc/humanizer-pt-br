@@ -1,0 +1,42 @@
+{
+ "01-linkedin-ia.md": {
+  "A": "humanizer-pt-br",
+  "B": "blader"
+ },
+ "02-email-reuniao.md": {
+  "A": "blader",
+  "B": "humanizer-pt-br"
+ },
+ "03-artigo-backup.md": {
+  "A": "humanizer-pt-br",
+  "B": "blader"
+ },
+ "04-copy-curso.md": {
+  "A": "humanizer-pt-br",
+  "B": "blader"
+ },
+ "05-roteiro-reels.md": {
+  "A": "humanizer-pt-br",
+  "B": "blader"
+ },
+ "06-descricao-produto.md": {
+  "A": "humanizer-pt-br",
+  "B": "blader"
+ },
+ "07-resposta-suporte.md": {
+  "A": "humanizer-pt-br",
+  "B": "blader"
+ },
+ "08-newsletter.md": {
+  "A": "blader",
+  "B": "humanizer-pt-br"
+ },
+ "09-bio-palestrante.md": {
+  "A": "blader",
+  "B": "humanizer-pt-br"
+ },
+ "10-relatorio-executivo.md": {
+  "A": "blader",
+  "B": "humanizer-pt-br"
+ }
+}
