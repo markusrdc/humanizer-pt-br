@@ -4,7 +4,7 @@ description: Reescreve textos em português do Brasil que soam como gerados por 
 license: MIT
 metadata:
   author: Markus Costa
-  version: 1.4.0
+  version: 1.5.0
   homepage: https://markuscosta.com/skills/humanizer-pt-br
 ---
 
@@ -89,7 +89,7 @@ Os padrões vêm agrupados do sinal mais forte para o mais fraco. Os do grupo A 
 
 **B2. Ritmo de metrônomo.** Frases todas do mesmo tamanho, ou parágrafos que seguem o mesmo molde (afirmação, explicação, benefício). Varie: uma frase curta depois de uma longa, um parágrafo de uma linha.
 
-**B3. Lista onde cabia uma frase.** Tópicos com negrito e dois-pontos ("**Agilidade:** ...") para três ideias que caberiam em duas frases. Mantenha lista quando o leitor vai consultar ou seguir passos, ou quando são quatro itens ou mais: transformar uma lista longa numa frase só cria uma enumeração mecânica ("custo menor, atendimento mais rápido, menos erro e mais tempo"), que é outro vício. Nesse caso, ou mantenha a lista sem emoji, ou escreva uma frase por benefício que importa.
+**B3. Lista onde cabia uma frase.** Tópicos com negrito e dois-pontos ("**Agilidade:** ...") para três ideias que caberiam em duas frases. Mantenha lista quando o leitor vai consultar ou seguir passos, ou quando são quatro itens ou mais: transformar uma lista longa numa frase só cria uma enumeração mecânica ("custo menor, atendimento mais rápido, menos erro e mais tempo"), que é outro vício. Nesse caso, ou mantenha a lista sem emoji, ou escreva uma frase por benefício que importa. Em post e newsletter, prefira a segunda: lista de benefícios num post soa a folheto. Em página de venda, ficha de produto e relatório, a lista pode ficar.
 - Antes: "**Benefícios:** - **Agilidade:** processos mais rápidos. - **Economia:** menos custos."
 - Depois: "Os processos andam mais rápido e custam menos."
 
@@ -191,7 +191,7 @@ Antes de entregar, confira o texto reescrito contra o original:
 2. **Fatos, volta:** o reescrito afirma alguma coisa que não está no original? Se sim, corte ou marque `[detalhe: ...]`.
 3. **Sentido:** o pedido, a promessa e o tom de compromisso são os mesmos? (Não transformar "pode reduzir" em "reduz", nem o contrário.)
 4. **Sobras do grupo A:** releia procurando A1 a A7. Eles costumam sobreviver na primeira e na última frase.
-5. **Novas muletas:** a reescrita criou fórmula própria (todas as frases curtas, tudo começando com verbo, "E" no começo de toda frase, enumeração longa numa frase só)? Repetiu a mesma palavra em frases vizinhas ("faz diferença. A diferença...")? Sobrou frase feita do C1? O registro ficou consistente (não alternar "pra" e "para", "você" e "tu" no mesmo texto)? Ficou frase sem verbo fazendo papel de transição ("Abaixo, como funciona.") ou elipse que o leitor precisa completar?
+5. **Novas muletas:** a reescrita criou fórmula própria (todas as frases curtas, tudo começando com verbo, "E" no começo de toda frase, enumeração longa numa frase só)? Repetiu a mesma palavra em frases vizinhas ("faz diferença. A diferença...")? Sobrou frase feita do C1? O registro ficou consistente (não alternar "pra" e "para", "você" e "tu" no mesmo texto)? Não trocou plural por singular sem artigo para soar falado ("menos erro em processo manual", "tarefa repetitiva que come horas")? Isso vira tique. Ficou frase sem verbo fazendo papel de transição ("Abaixo, como funciona.") ou elipse que o leitor precisa completar?
 6. **Peças do gênero:** título, nome do produto, seções fixas, chamada para ação, saudação e assinatura continuam lá?
 7. **Voz:** soa como a amostra ou o perfil escolhido? Leia em voz alta. Toda frase está completa (sem palavra faltando, como "para o seu voltar" no lugar de "para o seu aparelho voltar")? Se ninguém falaria assim numa conversa com o público desse texto, reescreva o trecho.
 8. **Português:** ortografia, concordância, regência e crase.
