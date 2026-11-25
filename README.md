@@ -35,8 +35,8 @@ Só num projeto: clone dentro de `.claude/skills/` na raiz do projeto. Depois é
 ### Claude.ai e Claude Desktop
 
 1. Baixe `humanizer-pt-br.zip` na [página de releases](https://github.com/markusrdc/humanizer-pt-br/releases/latest).
-2. Em **Configurações > Capacidades**, ative **Skills** (se ainda não estiver ativo).
-3. Clique em **Enviar skill** e escolha o ZIP.
+2. No Claude, abra **Configurações**, vá em **Capacidades** e ative **Skills**.
+3. Envie o ZIP na mesma tela.
 
 O ZIP tem só o que a skill usa (`SKILL.md`, `referencias/`, `LICENSE`, `NOTICE.md`). Para gerá-lo a partir do código: `scripts/empacotar.sh`.
 
@@ -62,15 +62,25 @@ Só diagnóstico:
 
 ## Exemplo
 
+Abertura de uma newsletter gerada por IA (teste 08) e a saída da skill, sem edição.
+
 Antes:
 
-> No cenário atual, em que a tecnologia evolui rapidamente, vale ressaltar que os agentes de IA não são apenas uma tendência, mas sim uma verdadeira revolução na forma como as pequenas empresas operam. ✅ Redução de custos ✅ Mais agilidade ✅ Menos erros
+> Mais um mês se passa e o mundo da inteligência artificial não para de nos surpreender. Se você sente que é impossível acompanhar tudo o que está acontecendo, fique tranquilo: é para isso que esta newsletter existe.
+>
+> Neste mês, o destaque ficou por conta dos agentes de IA, que ganharam novos recursos e estão cada vez mais capazes de executar tarefas complexas com autonomia. Grandes empresas de tecnologia anunciaram atualizações importantes em seus modelos, trazendo respostas mais precisas, janelas de contexto maiores e custos menores de uso.
+>
+> Pegue seu café e vamos juntos! Boa leitura.
 
 Depois:
 
-> Agente de IA é um programa que faz tarefas inteiras sozinho: responde cliente, organiza planilha, prepara relatório. Para uma empresa pequena, isso quer dizer gastar menos, responder mais rápido e errar menos em trabalho repetitivo.
+> Se você sente que é impossível acompanhar tudo o que acontece em inteligência artificial, esta newsletter existe para isso.
+>
+> Neste mês, o destaque foram os agentes de IA. Eles ganharam recursos novos e estão cada vez mais capazes de executar tarefas complexas sozinhos. Grandes empresas de tecnologia atualizaram seus modelos: as respostas ficaram mais precisas, as janelas de contexto maiores e o custo de uso menor.
+>
+> Pegue seu café e boa leitura.
 
-Mais nove pares, de e-mail corporativo a roteiro de Reels, em [testes/](testes/), com a comparação contra a blader/humanizer em [testes/AVALIACAO.md](testes/AVALIACAO.md).
+Os outros nove textos, de e-mail corporativo a roteiro de Reels, e as reescritas de cada rodada estão em [testes/](testes/), com a comparação contra a blader/humanizer em [testes/AVALIACAO.md](testes/AVALIACAO.md).
 
 ## Créditos
 
