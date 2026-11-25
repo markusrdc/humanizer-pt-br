@@ -4,7 +4,7 @@ description: Reescreve textos em português do Brasil que soam como gerados por 
 license: MIT
 metadata:
   author: Markus Costa
-  version: 1.5.0
+  version: 1.5.1
   homepage: https://markuscosta.com/skills/humanizer-pt-br
 ---
 
@@ -41,7 +41,7 @@ Antes de reescrever, defina a voz de destino:
 2. **O usuário descreveu a voz** ("mais informal", "tom de consultor", "para o público do agro"): siga a descrição.
 3. **Nada disso:** use a voz padrão em [referencias/voz-markus.md](referencias/voz-markus.md) (direta, concreta, falada, sem enfeite), adaptando o registro ao tipo de texto.
 
-Em qualquer caso, ajuste o registro ao gênero: e-mail de cliente e página de venda em "nós" e "você", sem gíria; post pessoal aceita "pra" e "a gente"; relatório pede frases completas e números.
+Em qualquer caso, ajuste o registro ao gênero: e-mail de cliente e página de venda em "nós" e "você", sem gíria; post pessoal aceita "a gente" (e "pra" só se o original ou a amostra já usam; senão o texto mistura registros); relatório pede frases completas e números.
 
 **A voz não passa por cima do gênero nem do autor.** O perfil (amostra ou padrão) define ritmo, vocabulário e tom. As convenções do gênero continuam valendo: página de venda pode ter lista de benefícios e negrito no preço, roteiro pode ter gancho em pergunta, post pode terminar com uma pergunta ao leitor. Texto assinado por outra pessoa (o e-mail do consultor, a bio do palestrante, a resposta da equipe de suporte) fica na pessoa e no papel de quem assina; da voz padrão vem só a clareza, não o jeito de falar do Markus.
 
