@@ -78,4 +78,4 @@ Destas fontes não copiamos nem traduzimos texto. Ideias e métodos não são pr
 - **nem-parece-ia** (Marcel Serrano, https://github.com/1marcelserrano/nem-parece-ia): a licença é ambígua (MIT no repositório público, MIT + Commons Clause no repositório de origem, que restringe uso comercial em consultoria). Nada dela foi usado.
 - **mackswendhell/humanizer-pt-br** (MIT): lida na pesquisa. É uma tradução do blader/humanizer; nada dela foi usado.
 
-A comparação completa está em [pesquisa/RELATORIO.md](pesquisa/RELATORIO.md).
+A comparação completa está em [pesquisa/RELATORIO.md](https://github.com/markusrdc/humanizer-pt-br/blob/main/pesquisa/RELATORIO.md).
