@@ -1,0 +1,10 @@
+{
+ "a": {
+  "A": "humanizer-pt-br",
+  "B": "blader"
+ },
+ "b": {
+  "A": "blader",
+  "B": "humanizer-pt-br"
+ }
+}
