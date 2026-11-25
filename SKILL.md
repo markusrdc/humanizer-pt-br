@@ -4,7 +4,7 @@ description: Reescreve textos em português do Brasil que soam como gerados por 
 license: MIT
 metadata:
   author: Markus Costa
-  version: 1.1.0
+  version: 1.2.0
   homepage: https://markuscosta.com/skills/humanizer-pt-br
 ---
 
@@ -22,6 +22,15 @@ O objetivo é qualidade editorial e voz própria. Não é enganar detectores de 
 4. **Formato e peças do gênero ficam.** Um e-mail continua e-mail, um roteiro continua roteiro, Markdown continua Markdown. Mantenha as peças que fazem o texto funcionar no gênero: título do texto, nome do produto ou do curso, seções fixas (Objetivo, Conclusão), assinatura, chamada para ação, saudação no mesmo grau de formalidade ("Prezado" continua "Prezado"; sugira a troca em "Para você conferir", não troque). Só mude a estrutura (listas, títulos, negrito) quando ela for o próprio vício.
 5. **Mesma certeza.** Não transforme "pode parar" em "para", "ajuda a" em "resolve", "costuma" em "sempre", nem o contrário. A força de cada afirmação é parte do sentido.
 6. **Português do Brasil.** Ortografia do Acordo de 1990, concordância e regência corretas. Não "corrija" o registro informal pedido pelo usuário.
+
+### Quando duas regras puxam para lados opostos
+
+- **Fidelidade vence estilo.** Se tirar o vício apaga informação ou muda a força da frase, mantenha a informação na forma mais simples e aponte em "Para você conferir". Exemplo: "a mais recomendada por especialistas" fica (sem fonte, não dá para nomear nem cortar o "especialistas" sem a frase ficar mais forte); aponte a atribuição vaga.
+- **Erro óbvio de digitação** ("compromisso inadiado" por "inadiável"): corrija e avise. **Erro de fato** (data, número, nome que parece errado): não corrija; aponte.
+- **Título:** corrigir a capitalização (D1) é ortografia e pode. Trocar palavras do título, não: sugira em "Para você conferir".
+- **Lista que fica com rótulo:** quando o rótulo em negrito é o nome do item (o achado, a etapa, o plano), ele pode ficar. O vício é rótulo genérico ("**Agilidade:**") na frente de frase vaga.
+- **Certeza e intensidade:** cortar intensificador vazio (C5: "extremamente", "significativamente") pode. Mudar o que o texto afirma, não: hipótese ("imagine ter") não vira afirmação, "é apaixonado por" não vira "gosta de".
+- **Roteiro:** a fala segue o registro falado ("pra", "tá"); texto que aparece na tela segue a escrita.
 
 ## 1. Calibrar a voz
 
@@ -99,7 +108,7 @@ Os padrões vêm agrupados do sinal mais forte para o mais fraco. Os do grupo A 
 
 ### C. Vocabulário e frases feitas
 
-**C1. Palavras-assinatura.** Verbos e adjetivos que aparecem demais em texto de IA em português: "crucial", "fundamental", "essencial", "mergulhar" (de *delve*), "jornada", "potencializar", "alavancar", "impulsionar", "robusto", "abrangente", "inovador", "transformador", "fascinante", "vibrante", "meticuloso", "otimizar", "explorar" (no sentido de "tratar de"), "desvendar", "navegar" (no sentido de "lidar com"), "tapeçaria", "no coração de", "ecossistema" (fora de TI ou biologia), "sinergia". Inclui as frases feitas de ênfase: "faz (toda) a diferença", "deixou de ser opcional", "não é mais luxo, é necessidade", "o melhor de tudo é que", "ganhar tempo para o que realmente importa", "sair do zero". Troque pela palavra simples ou, melhor, pelo fato.
+**C1. Palavras-assinatura.** Verbos e adjetivos que aparecem demais em texto de IA em português: "crucial", "fundamental", "essencial", "mergulhar" (de *delve*), "jornada", "potencializar", "alavancar", "impulsionar", "robusto", "abrangente", "inovador", "transformador", "fascinante", "vibrante", "meticuloso", "otimizar", "explorar" (no sentido de "tratar de"), "desvendar", "navegar" (no sentido de "lidar com"), "tapeçaria", "no coração de", "ecossistema" (fora de TI ou biologia), "sinergia". Inclui as frases feitas de ênfase: "faz (toda) a diferença", "deixou de ser opcional", "não é mais luxo, é necessidade", "o melhor de tudo é que", "ganhar tempo para o que realmente importa", "sair do zero", "a atenção que ele merece", "de ponta a ponta". Troque pela palavra simples ou, melhor, pelo fato.
 - Antes: "Vamos mergulhar nessa jornada para potencializar seus resultados."
 - Depois: "Nesta aula você vai montar o primeiro fluxo."
 
@@ -175,7 +184,7 @@ Antes de entregar, confira o texto reescrito contra o original:
 2. **Fatos, volta:** o reescrito afirma alguma coisa que não está no original? Se sim, corte ou marque `[detalhe: ...]`.
 3. **Sentido:** o pedido, a promessa e o tom de compromisso são os mesmos? (Não transformar "pode reduzir" em "reduz", nem o contrário.)
 4. **Sobras do grupo A:** releia procurando A1 a A7. Eles costumam sobreviver na primeira e na última frase.
-5. **Novas muletas:** a reescrita criou fórmula própria (todas as frases curtas, tudo começando com verbo, "E" no começo de toda frase, enumeração longa numa frase só)? Repetiu a mesma palavra em frases vizinhas ("faz diferença. A diferença...")? Sobrou frase feita do C1?
+5. **Novas muletas:** a reescrita criou fórmula própria (todas as frases curtas, tudo começando com verbo, "E" no começo de toda frase, enumeração longa numa frase só)? Repetiu a mesma palavra em frases vizinhas ("faz diferença. A diferença...")? Sobrou frase feita do C1? Ficou frase sem verbo fazendo papel de transição ("Abaixo, como funciona.") ou elipse que o leitor precisa completar?
 6. **Peças do gênero:** título, nome do produto, seções fixas, chamada para ação, saudação e assinatura continuam lá?
 7. **Voz:** soa como a amostra ou o perfil escolhido? Leia em voz alta. Toda frase está completa (sem palavra faltando, como "para o seu voltar" no lugar de "para o seu aparelho voltar")? Se ninguém falaria assim numa conversa com o público desse texto, reescreva o trecho.
 8. **Português:** ortografia, concordância, regência e crase.
