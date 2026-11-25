@@ -4,7 +4,7 @@ description: Reescreve textos em português do Brasil que soam como gerados por 
 license: MIT
 metadata:
   author: Markus Costa
-  version: 1.3.0
+  version: 1.4.0
   homepage: https://markuscosta.com/skills/humanizer-pt-br
 ---
 
@@ -113,6 +113,10 @@ Os padrões vêm agrupados do sinal mais forte para o mais fraco. Os do grupo A 
 - Antes: "Vamos mergulhar nessa jornada para potencializar seus resultados."
 - Depois: "Nesta aula você vai montar o primeiro fluxo."
 
+**C1b. Clichês de apresentação e de marketing.** Bio, página "sobre", release e copy repetem as mesmas fórmulas: "apaixonado por", "resultados reais", "dar resultado na prática", "aprendizados valiosos", "preparar-se para o futuro do trabalho", "soluções inovadoras", "agregar valor", "referência no mercado", "olhar estratégico", "transformar desafios em oportunidades". Não são fatos: reescreva com o fato que o texto já tem (área, anos, número de clientes, o que a pessoa faz) ou corte. Nome de área de atuação ("transformação digital", "inteligência artificial") é fato e fica.
+- Antes: "É apaixonado por mostrar como a tecnologia pode gerar resultados reais para quem deseja se preparar para o futuro do trabalho."
+- Depois: "Gosta de explicar tecnologia em palavras simples."
+
 **C2. Atribuição vaga.** "Especialistas apontam", "estudos mostram", "muitos acreditam", "é amplamente reconhecido" sem dizer quem.
 - Antes: "Especialistas apontam que a IA vai mudar o mercado."
 - Depois: diga quem, se o original disser; se não, assuma a opinião ("Acho que...") ou corte.
@@ -187,7 +191,7 @@ Antes de entregar, confira o texto reescrito contra o original:
 2. **Fatos, volta:** o reescrito afirma alguma coisa que não está no original? Se sim, corte ou marque `[detalhe: ...]`.
 3. **Sentido:** o pedido, a promessa e o tom de compromisso são os mesmos? (Não transformar "pode reduzir" em "reduz", nem o contrário.)
 4. **Sobras do grupo A:** releia procurando A1 a A7. Eles costumam sobreviver na primeira e na última frase.
-5. **Novas muletas:** a reescrita criou fórmula própria (todas as frases curtas, tudo começando com verbo, "E" no começo de toda frase, enumeração longa numa frase só)? Repetiu a mesma palavra em frases vizinhas ("faz diferença. A diferença...")? Sobrou frase feita do C1? Ficou frase sem verbo fazendo papel de transição ("Abaixo, como funciona.") ou elipse que o leitor precisa completar?
+5. **Novas muletas:** a reescrita criou fórmula própria (todas as frases curtas, tudo começando com verbo, "E" no começo de toda frase, enumeração longa numa frase só)? Repetiu a mesma palavra em frases vizinhas ("faz diferença. A diferença...")? Sobrou frase feita do C1? O registro ficou consistente (não alternar "pra" e "para", "você" e "tu" no mesmo texto)? Ficou frase sem verbo fazendo papel de transição ("Abaixo, como funciona.") ou elipse que o leitor precisa completar?
 6. **Peças do gênero:** título, nome do produto, seções fixas, chamada para ação, saudação e assinatura continuam lá?
 7. **Voz:** soa como a amostra ou o perfil escolhido? Leia em voz alta. Toda frase está completa (sem palavra faltando, como "para o seu voltar" no lugar de "para o seu aparelho voltar")? Se ninguém falaria assim numa conversa com o público desse texto, reescreva o trecho.
 8. **Português:** ortografia, concordância, regência e crase.
