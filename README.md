@@ -82,6 +82,17 @@ Depois:
 
 Os outros nove textos, de e-mail corporativo a roteiro de Reels, e as reescritas de cada rodada estão em [testes/](testes/), com a comparação contra a blader/humanizer em [testes/AVALIACAO.md](testes/AVALIACAO.md).
 
+## Publicar uma versão
+
+1. Suba `metadata.version` no frontmatter do `SKILL.md`.
+2. Acrescente a versão no topo do [CHANGELOG.md](CHANGELOG.md).
+3. Gere o ZIP: `bash scripts/empacotar.sh` (sai em `dist/humanizer-pt-br.zip`, fora do git).
+4. Commit e push em `main`.
+5. Publique: `gh release create vX.Y.Z dist/humanizer-pt-br.zip --title vX.Y.Z --notes "<itens do CHANGELOG>"`.
+6. Confira: `https://github.com/markusrdc/humanizer-pt-br/releases/latest/download/humanizer-pt-br.zip` responde e baixa a versão nova.
+
+O anexo tem de se chamar exatamente `humanizer-pt-br.zip`: o site ([markuscosta.com/skills/humanizer-pt-br](https://markuscosta.com/skills/humanizer-pt-br)) e a instalação acima apontam para `releases/latest/download/humanizer-pt-br.zip`. Outro nome quebra o link de download.
+
 ## Créditos
 
 A estrutura parte de ideias da [blader/humanizer](https://github.com/blader/humanizer) (MIT, Siqi Chen) e da [avoid-ai-writing](https://github.com/conorbronsdon/avoid-ai-writing) (MIT, Conor Bronsdon), com inspiração na skill "humanizar" de [Fabrício Telles](https://gitlab.com/fabriciotelles/skills) e no guia [Signs of AI writing](https://en.wikipedia.org/wiki/Wikipedia:Signs_of_AI_writing) da Wikipedia. O texto é original. Detalhes e licenças em [NOTICE.md](NOTICE.md).
